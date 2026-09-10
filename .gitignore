@@ -1,0 +1,141 @@
+#==============================================================================
+# LICENSED MICRODATA -- DO NOT REDISTRIBUTE
+#
+# The worker data in this project are resume microdata from People Data Labs,
+# obtained through Dewey Data, and are licensed. Neither the raw extracts nor
+# any derived panel may be published. These rules block them by default; do not
+# relax them, and do not force-add a file past them without checking the terms.
+#==============================================================================
+
+# Every data directory, at any depth
+Data/
+data/
+Output/
+output/
+
+# Raw and intermediate extracts wherever they land
+**/raw/
+**/Raw/
+**/intermediate/
+**/Intermediate/
+**/interim/
+
+# Data file formats, wherever they land
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.dta
+*.sas7bdat
+*.rds
+*.RData
+*.rda
+*.sav
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.jsonl
+*.db
+*.sqlite
+*.sqlite3
+*.xlsx
+*.xls
+
+# Archives, which can smuggle data past the rules above
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.7z
+*.rar
+
+# LLM classification caches: contain verbatim job titles from the licensed data
+*_cache.jsonl
+stage_a_cache*
+stage_b_cache*
+
+# Crosswalks built on the licensed extracts
+final_occupation_crosswalk*
+title_match_results*
+unique_job_titles*
+job_titles*
+flagged_title_industry_context*
+person_activity*
+baseline_sample*
+analysis_panel*
+analysis_subsample*
+panel_quarterly*
+prior_education*
+skills_crosssection*
+all_enrolments*
+new_enrolments*
+diploma_certs*
+industry_by_quarter*
+
+#==============================================================================
+# Credentials
+#==============================================================================
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+api_key*
+.Renviron
+
+#==============================================================================
+# Language and tooling
+#==============================================================================
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.virtual_documents/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+
+# LaTeX build artefacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.toc
+*.log
+
+#==============================================================================
+# OS and editors
+#==============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+#==============================================================================
+# Exceptions: figures committed on purpose
+#==============================================================================
+!figures/
+!figures/*.png
