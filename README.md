@@ -102,15 +102,16 @@ teaching fell 16.3 percent, in the same workers over the same window under the s
 specification. Each decline is larger in absolute terms than the increase in AI
 certificates.
 
-Two categories that ought not to move do not. **Safety and compliance** — forklift
-operation, first aid, hazardous materials — has no plausible connection to generative AI
-and serves as the paper's within-outcome placebo; it is flat and its pre-trend test passes.
-Leadership and soft skills is likewise flat.
+The category that ought not to move does not. **Safety and compliance** — forklift
+operation, first aid, hazardous materials — has no plausible connection to generative AI and
+serves as the paper's within-outcome placebo. Its coefficient is +0.013 against a standard
+error of 0.010, indistinguishable from zero, and its pre-trend test passes. Leadership and
+soft-skills certification is likewise flat.
 
 Summing across categories, the increase and the decreases account for one another. Total
 credentialing did not rise. What changed was the composition of training, not its level.
 
-![Estimated effect on certification by subject category](figures/certificate_subjects_ranked.png)
+![Substitution across certificate subjects: AI up, the adjacent technical fields down by more, placebo flat](figures/substitution_across_certificate_subjects.png)
 
 ### 3. The response was to visibility, not to capability
 
