@@ -9,7 +9,7 @@ replication materials are not posted yet; see [Status](#status) below.
 ## The question
 
 American schools are being rebuilt around artificial intelligence. That effort is aimed at
-people who have not yet entered the labour market. It says nothing about the 159 million
+people who have not yet entered the labor market. It says nothing about the 159 million
 Americans already on a payroll, most of whom will not return to a classroom.
 
 If a technology arrives that can perform a meaningful share of your daily tasks, and no
@@ -159,7 +159,7 @@ been straightforward to report as a finding, and each is an artifact:
   undergraduates.
 
 Résumé data record not what workers did but what workers chose to write down. The
-diagnostics that separate behaviour from recording are not complicated, but they have to be
+diagnostics that separate behavior from recording are not complicated, but they have to be
 run.
 
 ## Data availability
